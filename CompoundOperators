@@ -1,0 +1,25 @@
+class CompundOperators {
+
+    public static void main (String[] args){
+          
+        int result = 1 + 2; // result is now 3
+        result += 10; //compund operator +=
+        System.out.println(result);
+
+        result = result - 1;
+        result -= 10; //compound operator -=
+        System.out.println(result);
+
+        result = result * 2; //result is now 4
+        result *= 10; //compound operator *=
+        System.out.println(result);
+
+        result = result / 2; // result is now 20
+        result /= 10; //compound operator /=
+        System.out.println(result);
+
+        result = result + 8; //result is now 10
+        result = result % 7; //result is now 3 because 10 divide by 7 will have a remainder of 3
+        System.out.println(result);
+    }
+}
